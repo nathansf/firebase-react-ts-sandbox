@@ -6,7 +6,7 @@ import SearchBox from "./components/SearchBox";
 function App() {
   return (
     <>
-      <div>
+      <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -14,10 +14,12 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div>
-        <p>Starting with a simple input to import custom useDebounce hook</p>
-        <SearchBox />
+      <div className="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+        <h1 className="text-xl">Vite + React</h1>
+        <div>
+          <p>Starting with a simple input to import custom useDebounce hook</p>
+          <SearchBox />
+        </div>
       </div>
     </>
   );
