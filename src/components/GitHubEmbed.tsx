@@ -23,7 +23,7 @@ export default function GitHubEmbed({ url }: GitHubEmbedProps) {
       // cleanup if needed
       containerRef.current?.removeChild(script);
     };
-  }, []);
+  });
 
   return <div ref={containerRef}></div>;
 }
