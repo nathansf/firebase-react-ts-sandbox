@@ -1,4 +1,5 @@
 import reactLogo from "../assets/react.svg";
+import GitHubEmbed from "./GitHubEmbed";
 import viteLogo from "/vite.svg";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <GitHubEmbed url="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Fnathansf%2Ffirebase-react-ts-sandbox%2Fblob%2Fmain%2FREADME.md&style=nnfx-light&type=markdown" />
     </>
   );
 }
