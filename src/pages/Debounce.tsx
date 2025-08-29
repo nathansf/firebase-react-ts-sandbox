@@ -1,5 +1,5 @@
 import GitHubEmbed from "./GitHubEmbed";
-import SearchBox from "./SearchBox";
+import SearchBox from "../components/SearchBox";
 
 export default function Debounce() {
   return (

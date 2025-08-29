@@ -1,9 +1,9 @@
 import "./App.css";
 
-import Home from "./components/Home";
-import CodeEmbed from "./components/CodeEmbed";
-import Debounce from "./components/Debounce";
-import Memo from "./components/Memo";
+import Home from "./pages/Home";
+import CodeEmbed from "./pages/CodeEmbed";
+import Debounce from "./pages/Debounce";
+import Memo from "./pages/Memo";
 import NavBar from "./components/NavBar";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
