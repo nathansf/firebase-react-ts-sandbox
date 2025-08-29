@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 
 type GitHubEmbedProps = {
   url: string;
-  title: string;
+  title?: string | null;
 };
 
 export default function GitHubEmbed({ url, title }: GitHubEmbedProps) {
@@ -28,7 +28,7 @@ export default function GitHubEmbed({ url, title }: GitHubEmbedProps) {
 
   return (
     <div className="mx-24 my-12">
-      <h3>{title}</h3>
+      {title && <h3>{title}</h3>}
       <div ref={containerRef}></div>
     </div>
   );

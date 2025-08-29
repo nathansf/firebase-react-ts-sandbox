@@ -7,9 +7,13 @@
 ## Examples so far
 
 - Debounce util in an input field
-- Component to embed Github code on a page
+- Util to embed Github code on a page
 
 ### Follow-up
 
+- React Memo example to eliminate rerendering
+- context api example
+- useEffect example with loading state for fetching data
+- Page for search location on map
 - Create mobile nav
 - Add tests
