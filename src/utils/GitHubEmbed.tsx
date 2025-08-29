@@ -2,9 +2,10 @@ import { useEffect, useRef } from "react";
 
 type GitHubEmbedProps = {
   url: string;
+  title: string;
 };
 
-export default function GitHubEmbed({ url }: GitHubEmbedProps) {
+export default function GitHubEmbed({ url, title }: GitHubEmbedProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -25,5 +26,10 @@ export default function GitHubEmbed({ url }: GitHubEmbedProps) {
     };
   });
 
-  return <div ref={containerRef}></div>;
+  return (
+    <div className="mx-24 my-12">
+      <h3>{title}</h3>
+      <div ref={containerRef}></div>
+    </div>
+  );
 }

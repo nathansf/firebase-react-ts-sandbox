@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Debounce example", href: "/debounce" },
-    { label: "Memo example", href: "/memo" },
-    { label: "Github embed", href: "/embed" },
+    { label: "Debounce custom hook", href: "/debounce" },
+    { label: "React Memo example", href: "/memo" },
+    { label: "Github embed util", href: "/embed" },
   ];
 
   return (

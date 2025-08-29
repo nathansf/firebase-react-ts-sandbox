@@ -1,5 +1,5 @@
 import reactLogo from "../assets/react.svg";
-import GitHubEmbed from "./GitHubEmbed";
+import GitHubEmbed from "../utils/GitHubEmbed";
 import viteLogo from "/vite.svg";
 
 export default function Home() {

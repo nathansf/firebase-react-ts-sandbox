@@ -4,11 +4,12 @@
 - Styling with Tailwind CSS
 - Deployed to Firebase on commit to main with a Github action
 
-## Concepts created so far
+## Examples so far
 
-- Debounce util demo'ed in an input field
+- Debounce util in an input field
 - Component to embed Github code on a page
 
-### Notes
+### Follow-up
 
-- Currently desktop only, not sure if I'll get around to making a mobile nav
+- Create mobile nav
+- Add tests
