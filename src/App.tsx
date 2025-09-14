@@ -1,7 +1,8 @@
 import "./App.css";
 
-import Home from "./pages/Home";
 import CodeEmbed from "./pages/CodeEmbed";
+import DataFetching from "./pages/DataFetching";
+import Home from "./pages/Home";
 import Debounce from "./pages/Debounce";
 import Map from "./pages/MapDemo";
 import NavBar from "./components/NavBar";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/debounce" element={<Debounce />}></Route>
           <Route path="/map" element={<Map />}></Route>
           <Route path="/embed" element={<CodeEmbed />}></Route>
+          <Route path="/fetch" element={<DataFetching />}></Route>
         </Routes>
       </div>
     </Router>

@@ -6,6 +6,7 @@ export default function NavBar() {
     { label: "Debounce custom hook", href: "/debounce" },
     { label: "Map Demo", href: "/map" },
     { label: "Github embed util", href: "/embed" },
+    { label: "Data fetching", href: "/fetch" },
   ];
 
   return (
