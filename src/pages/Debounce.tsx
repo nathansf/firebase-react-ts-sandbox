@@ -4,7 +4,7 @@ import SearchBox from "../components/SearchBox";
 export default function Debounce() {
   return (
     <>
-      <div className="mx-auto flex max-w-lg items-center rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">
+      <div className="mx-auto flex max-w-lg items-center rounded-xl bg-white p-6 shadow-lg outline outline-black/5">
         <div>
           <p className="mb-8">
             Input field with search on keystroke debounced, output to console
