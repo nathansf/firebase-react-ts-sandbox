@@ -7,12 +7,13 @@
 
 - Debounce util in an input field
 - Util to embed Github code on a page
+- Map demo using Nominatum public search api
 
 ### Follow-up
 
-- React Memo example to eliminate rerendering
+- React Memo example with useCallback to eliminate rerendering
 - context api example for managing state
 - useEffect example with loading state for fetching data
-- Page for search location on map
+- Form handling examples with useActionState and useFormStatus
 - Create mobile nav
 - Add tests

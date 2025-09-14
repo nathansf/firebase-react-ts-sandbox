@@ -4,7 +4,7 @@ export default function NavBar() {
   const navItems = [
     { label: "Home", href: "/" },
     { label: "Debounce custom hook", href: "/debounce" },
-    { label: "React Memo example", href: "/memo" },
+    { label: "Map Demo", href: "/map" },
     { label: "Github embed util", href: "/embed" },
   ];
 
