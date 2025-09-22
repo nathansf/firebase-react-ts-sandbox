@@ -2,6 +2,8 @@ import "./App.css";
 
 import CodeEmbed from "./pages/CodeEmbed";
 import DataFetching from "./pages/DataFetching";
+import FormDemo from "./pages/FormDemo";
+
 import Home from "./pages/Home";
 import Debounce from "./pages/Debounce";
 import Map from "./pages/MapDemo";
@@ -20,6 +22,7 @@ function App() {
           <Route path="/map" element={<Map />}></Route>
           <Route path="/embed" element={<CodeEmbed />}></Route>
           <Route path="/fetch" element={<DataFetching />}></Route>
+          <Route path="/form" element={<FormDemo />}></Route>
         </Routes>
       </div>
     </Router>

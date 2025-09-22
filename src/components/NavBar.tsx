@@ -7,6 +7,7 @@ export default function NavBar() {
     { label: "Map Demo", href: "/map" },
     { label: "Github embed util", href: "/embed" },
     { label: "Data fetching", href: "/fetch" },
+    { label: "Simple form", href: "/form" },
   ];
 
   return (
