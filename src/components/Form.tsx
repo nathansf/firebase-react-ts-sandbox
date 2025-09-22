@@ -17,7 +17,7 @@ export default function Form() {
     >
       <label htmlFor="name">Name:</label>
       <input
-        className="w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        className="input-text"
         type="text"
         id="name"
         name="name"
@@ -26,7 +26,7 @@ export default function Form() {
 
       <label htmlFor="email">Email:</label>
       <input
-        className="w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        className="input-text"
         type="email"
         id="email"
         name="email"
@@ -35,10 +35,7 @@ export default function Form() {
 
       <label htmlFor="phoneNumber">Phone:</label>
       <PhoneInput />
-      <button
-        className="w-full bg-indigo-600 text-white font-medium py-2 px-4 rounded-lg shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-        type="submit"
-      >
+      <button className="submit-button" type="submit">
         Submit
       </button>
     </form>
