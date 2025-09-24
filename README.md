@@ -10,6 +10,7 @@
 - Map demo using Nominatum public search api
 - useEffect example with loading state for fetching data
 - Form example with a mix of controlled and uncontrolled inputs
+- Todo list showing a list of tasks from mock api request
 
 ### Follow-up
 
@@ -17,3 +18,8 @@
 - context api example for managing state
 - Create mobile nav
 - Add tests
+- Todo list
+  - Button to mark individual task completed
+  - Completed tasks have button to archive. Archived tasks don’t show.
+  - Button to revert to original list
+  - Style it a bit

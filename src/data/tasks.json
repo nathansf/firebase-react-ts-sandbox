@@ -1,0 +1,32 @@
+[
+  {
+    "id": "todo-0",
+    "title": "Eat",
+    "date": "2025-09-01",
+    "isCompleted": false
+  },
+  {
+    "id": "todo-1",
+    "title": "Sleep",
+    "date": "2025-09-05",
+    "isCompleted": false
+  },
+  {
+    "id": "todo-2",
+    "title": "Repeat",
+    "date": "2025-09-06",
+    "isCompleted": false
+  },
+  {
+    "id": "todo-3",
+    "title": "Ride",
+    "date": "2025-09-08",
+    "isCompleted": false
+  },
+  {
+    "id": "todo-4",
+    "title": "Swim",
+    "date": "2025-09-10",
+    "isCompleted": false
+  }
+]

@@ -8,6 +8,7 @@ export default function NavBar() {
     { label: "Github embed util", href: "/embed" },
     { label: "Data fetching", href: "/fetch" },
     { label: "Simple form", href: "/form" },
+    { label: "Todo list", href: "/todo" },
   ];
 
   return (

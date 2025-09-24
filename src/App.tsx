@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Debounce from "./pages/Debounce";
 import Map from "./pages/MapDemo";
 import NavBar from "./components/NavBar";
+import Todo from "./pages/Todo";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/embed" element={<CodeEmbed />}></Route>
           <Route path="/fetch" element={<DataFetching />}></Route>
           <Route path="/form" element={<FormDemo />}></Route>
+          <Route path="/todo" element={<Todo />}></Route>
         </Routes>
       </div>
     </Router>
