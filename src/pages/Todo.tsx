@@ -1,10 +1,18 @@
 import { fetchTasks, type Task } from "../data/server";
 import { useState, useEffect } from "react";
 
-function TodoListItem({ title, date }: Task) {
+function TodoListItem({ title, date, isCompleted }: Task) {
+  let buttonContent;
+  if (isCompleted) {
+    buttonContent = <button className="outline-button">🗃️ archive task</button>;
+  } else {
+    buttonContent = (
+      <button className="outline-button">✅ mark task completed</button>
+    );
+  }
   return (
     <li>
-      {title} // {date}
+      {title} // {date} {buttonContent}
     </li>
   );
 }
