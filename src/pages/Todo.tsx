@@ -1,6 +1,24 @@
 import { fetchTasks, type Task } from "../data/server";
 import { useState, useEffect } from "react";
 
+function TodoListItem({ title, date }: Task) {
+  return (
+    <li>
+      {title} // {date}
+    </li>
+  );
+}
+
+function TodoList(tasks: Task[]) {
+  return (
+    <ul>
+      {tasks.map((task) => (
+        <TodoListItem key={task.id} {...task} />
+      ))}
+    </ul>
+  );
+}
+
 export default function Todo() {
   const [tasks, setTasks] = useState<Task[] | null>(null);
 
@@ -16,15 +34,16 @@ export default function Todo() {
 
   let taskContent;
   if (tasks && tasks.length > 0) {
-    taskContent = (
-      <ul>
-        {tasks.map((task) => (
-          <li key={task.id}>
-            {task.title} // {task.date}
-          </li>
-        ))}
-      </ul>
-    );
+    taskContent = TodoList(tasks);
+    // taskContent = (
+    //   <ul>
+    //     {tasks.map((task) => (
+    //       <li key={task.id}>
+    //         {task.title} // {task.date}
+    //       </li>
+    //     ))}
+    //   </ul>
+    // );
   } else {
     taskContent = <div>loading tasks...</div>;
   }

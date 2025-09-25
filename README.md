@@ -19,7 +19,7 @@
 - Create mobile nav
 - Add tests
 - Todo list
-  - Button to mark individual task completed
+  - Uncompleted tasks have button to mark completed
   - Completed tasks have button to archive. Archived tasks don’t show.
-  - Button to revert to original list
+  - Button to revert to original task list shows if any tasks have been modified
   - Style it a bit

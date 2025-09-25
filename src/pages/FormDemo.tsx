@@ -6,7 +6,7 @@ export default function FormDemo() {
     <>
       <div className="max-w-md mx-auto mt-8">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">
-          From example with a mix of controlled and uncontrolled inputs
+          Form example with a mix of controlled and uncontrolled inputs
         </h2>
         <ul className="list-disc list-inside text-gray-700">
           <li className="mb-2">
