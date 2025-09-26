@@ -11,6 +11,7 @@
 - useEffect example with loading state for fetching data
 - Form example with a mix of controlled and uncontrolled inputs
 - Todo list showing a list of tasks from mock api request
+  - Uncompleted tasks have button to mark completed
 
 ### Follow-up
 
@@ -19,7 +20,6 @@
 - Create mobile nav
 - Add tests
 - Todo list
-  - Uncompleted tasks have button to mark completed
   - Completed tasks have button to archive. Archived tasks don’t show.
   - Button to revert to original task list shows if any tasks have been modified
   - Style it a bit
