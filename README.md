@@ -12,14 +12,14 @@
 - Form example with a mix of controlled and uncontrolled inputs
 - Todo list showing a list of tasks from mock api request
   - Uncompleted tasks have button to mark completed
+  - Completed tasks can be archived, and archived tasks are hidden
 
 ### Follow-up
 
 - React Memo example with useCallback to eliminate rerendering
 - context api example for managing state
 - Create mobile nav
-- Add tests
 - Todo list
-  - Completed tasks have button to archive. Archived tasks don’t show.
   - Button to revert to original task list shows if any tasks have been modified
+  - If all tasks archived show 'All archived' instead of loading text
   - Style it a bit
