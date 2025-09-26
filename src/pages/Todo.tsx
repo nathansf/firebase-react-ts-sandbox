@@ -1,18 +1,27 @@
 import { fetchTasks, type Task } from "../data/server";
 import { useState, useEffect } from "react";
 
-function TodoListItem({ title, date, isCompleted }: Task) {
+function TodoListItem({ title, date, id, isCompleted }: Task) {
+  const handleCompleteTask = () => {
+    console.log(`task is is ${id}`);
+  };
+
   let buttonContent;
   if (isCompleted) {
     buttonContent = <button className="outline-button">🗃️ archive task</button>;
   } else {
     buttonContent = (
-      <button className="outline-button">✅ mark task completed</button>
+      <button className="outline-button" onClick={handleCompleteTask}>
+        ✅ mark task completed
+      </button>
     );
   }
   return (
-    <li>
-      {title} // {date} {buttonContent}
+    <li className="grid grid-cols-2 mt-8 p-4 items-center">
+      <div>
+        {title} // {date}
+      </div>
+      <div>{buttonContent}</div>
     </li>
   );
 }
@@ -43,21 +52,12 @@ export default function Todo() {
   let taskContent;
   if (tasks && tasks.length > 0) {
     taskContent = TodoList(tasks);
-    // taskContent = (
-    //   <ul>
-    //     {tasks.map((task) => (
-    //       <li key={task.id}>
-    //         {task.title} // {task.date}
-    //       </li>
-    //     ))}
-    //   </ul>
-    // );
   } else {
     taskContent = <div>loading tasks...</div>;
   }
 
   return (
-    <div className="max-w-md mx-auto mt-8">
+    <div className="max-w-lg mx-auto mt-8">
       <h2 className="text-2xl font-bold text-gray-800 mb-4">
         Todo list example for passing callbacks as props
       </h2>
